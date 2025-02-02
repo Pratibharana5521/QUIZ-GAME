@@ -48,8 +48,17 @@ quiz-game/
 The frontend consists of three files:
 
 #### **`index.html`**
-This is the main HTML file that displays the quiz interface. 
+
+ This is the main HTML file that displays the quiz interface. 
+
+#### **`style.css`**
+This file styles the quiz interface.
+
+#### **script.js**
+This file contains the logic for fetching questions from the server and displaying them.
+
 ---
+
 
 ### **2. Backend (`server.js`)**
 This file contains the Node.js server logic.
