@@ -25,22 +25,7 @@ Students will implement the following:
 - Handle requests to the `/questions` endpoint to return quiz questions.
 
 ### **3. Quiz Questions**
-- Create a **JSON file** (`questions.json`) to store quiz questions, options, and correct answers.
-- Example structure:
-  ```json
-  [
-    {
-      "question": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin", "Madrid"],
-      "answer": "Paris"
-    },
-    {
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
-      "answer": "Mars"
-    }
-  ]
-  ```
+- We have already provided setup of questions in json format, pls use that only.
 ---
 
 ## **Project Structure**
