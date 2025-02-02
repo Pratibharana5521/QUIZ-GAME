@@ -25,7 +25,7 @@ Students will implement the following:
 - Handle requests to the `/questions` endpoint to return quiz questions.
 
 ### **3. Quiz Questions**
-- We have already provided setup of questions in json format, pls use that only.
+- We have already provided set of questions in json format, pls use that only.
 ---
 
 ## **Project Structure**
