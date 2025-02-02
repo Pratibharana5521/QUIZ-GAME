@@ -12,8 +12,12 @@ The **Quiz Game** is a server-side application built using Node.js. The game ser
 The game consists of the following components:
 
 1. **Frontend (HTML/CSS/JavaScript)**:
-   - Displays the quiz questions and options.
-   - Allows users to select answers and tracks their score.
+   - Create an HTML file to display the quiz interface.
+   - Use CSS to style the quiz interface.
+   - Write JavaScript to:
+      - Fetch quiz questions from the server.
+      - Display questions and options.
+      - Allow users to select answers and track their score.
 
 2. **Backend (Node.js)**:
    - Serves the frontend files (HTML, CSS, JS).
