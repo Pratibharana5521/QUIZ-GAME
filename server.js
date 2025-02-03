@@ -3,9 +3,14 @@ const http = require('http');
 const path = require('path');
 const fs = require('fs');
 
+
 const PORT = 3000;
 
 const server = http.createServer((req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*'); 
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS'); 
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type'); 
+    
     if (req.url === '/questions') {
         const filePath = path.join(__dirname, 'questions.json');
 
